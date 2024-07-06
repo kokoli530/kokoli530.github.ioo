@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="Masukan Lokasi Anda">
+            <button type="button" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Lokasi Tidak Ditemukan</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Kelembaban</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Kecepatan Angin</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; Dibuat koli dengan penuh 💕 pada nisa</p>
+        </footer>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
